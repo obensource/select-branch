@@ -10,5 +10,4 @@ alias checkout='node /usr/local/lib/node_modules/select-branch/index.js `git bra
 ```
 _If you're using a *NIX platform besides MacOS, please update the global node modules path in the provided bash alias._
 
----
 ##### License: [MIT](https://opensource.org/licenses/MIT)
