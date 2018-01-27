@@ -38,11 +38,7 @@ inquirer.prompt([
       return process.exit(0)
     }
     module.exports = exec(`git checkout ${branchSelection}`, (data, stderr) => {
-      if (data == null) {
-        console.log(`Already on branch: ${branchSelection}`)
-      } else {
-        console.log(data)
-      }
+      console.log(data)
     })
   })
 })
