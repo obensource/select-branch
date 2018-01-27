@@ -1,0 +1,8 @@
+g:ale_javascript_eslint_executable         *g:ale_javascript_eslint_executable*
+                                           *b:ale_javascript_eslint_executable*
+
+g:ale_javascript_eslint_options               *g:ale_javascript_eslint_options*
+                                              *b:ale_javascript_eslint_options*
+
+g:ale_javascript_eslint_use_global         *g:ale_javascript_eslint_use_global*
+                                           *b:ale_javascript_eslint_use_global*
