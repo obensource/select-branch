@@ -37,8 +37,6 @@ inquirer.prompt([
     if (!selection.confirm) {
       return process.exit(0)
     }
-    module.exports = exec(`git checkout ${branchSelection}`, (data, stderr) => {
-      console.log(data)
-    })
+    module.exports = exec(`git checkout ${branchSelection}`)
   })
 })
