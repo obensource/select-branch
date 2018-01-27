@@ -1,7 +1,7 @@
 # select-branch
-__A handy CLI tool for quickly selecting a local git branch to checkout.__
+__A handy CLI tool for quickly selecting a local git branch to checkout__
 
-This exists so you don't have to keep copying & pasting the name of the branch you'd like to checkout when running $`git branch`.
+This exists so you don't have to keep copying & pasting the name of the branch you'd like to checkout when running $`git branch`
 
 ### Installation
 * First install this module globally: $`npm install -g select-branch`
