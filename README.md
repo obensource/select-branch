@@ -1,4 +1,4 @@
-## select-branch
+# select-branch
 __A handy CLI tool for quickly selecting a local git branch to checkout.__
 
 This exists so you don't have to keep copying & pasting the name of the branch you'd like to checkout when running $`git branch`.
