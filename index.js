@@ -37,6 +37,12 @@ inquirer.prompt([
     if (!selection.confirm) {
       return process.exit(0)
     }
-    module.exports = exec(`git checkout ${branchSelection}`)
+    module.exports = exec(`git checkout ${branchSelection}`,
+    (error) => {
+      if (error) {
+        console.error(`${error}`);
+        return;
+      }
+    })
   })
 })
