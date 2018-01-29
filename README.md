@@ -17,4 +17,4 @@ Run $`npm install -g select-branch`
 👉 Hit `return` again to confirm.
 
 ## 
-##### License: [MIT](https://opensource.org/licenses/MIT)
+##### License: [ISC](https://opensource.org/licenses/ISC)
