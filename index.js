@@ -6,6 +6,12 @@ const gitBranchOutput = shell.exec('git branch', {silent: true})
 const branchStrings = gitBranchOutput.stdout.split('\n').map(branch => branch.slice(2))
 const branches = branchStrings.filter(branch => branch !== '')
 
+function checkoutBranch (branchSelection) {
+  if (shell.exec(`git checkout ${branchSelection}`).code !== 0) {
+      shell.exit(1)
+  }
+}
+
 if (gitBranchOutput.stderr !== '') {
   console.log(gitBranchOutput.stderr)
   return process.exit(0)
@@ -37,6 +43,6 @@ inquirer.prompt([
     if (!selection.confirm) {
       return process.exit(0)
     }
-    module.exports = shell.exec(`git checkout ${branchSelection}`)
+    module.exports = checkoutBranch(branchSelection)
   })
 })
