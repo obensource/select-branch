@@ -7,7 +7,7 @@ const branchStrings = gitBranchOutput.stdout.split('\n').map(branch => branch.sl
 const branches = branchStrings.filter(branch => branch !== '')
 
 if (branches.length === 0) {
-  console.log('No branches')
+  console.log('Not a git repository')
   return process.exit(0)
 } else if (branches.length === 1) {
   console.log('Only one branch')
