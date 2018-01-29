@@ -4,7 +4,7 @@
 
 __A handy CLI tool for quickly checking out a local git branch.__
 
-This exists so you don't have to keep copying & pasting the name of the branch you'd like to checkout when running $`git branch`.
+This exists so you don't have to keep copying & pasting the name of the branch you'd like to checkout when running $`git branch`
 
 ### Installation
 Run $`npm install -g select-branch`
