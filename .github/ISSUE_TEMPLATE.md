@@ -2,7 +2,7 @@
 <!-- Please delete all comments (like this) & unrelated sections before submitting your issue -->
 
 ## Description
-<!-- Please provide a brief but complete description of the issue. -->
+<!-- Please provide a brief but complete description of the issue -->
 
 ## Requirements
 <!-- What requirements does this issue have in order to be implemented? -->
@@ -15,6 +15,6 @@
 <!-- Providing context helps us come up with an appopriate solution as quickly as possible -->
 
 ## Screenshots, gifs, or video
-<!-- Please add helpful media to show what the issue is if appropriate. -->
-<!-- You can take a screenshot on MacOS with `command (⌘) + shift + 4`. -->
+<!-- Please add helpful media to show what the issue is if appropriate -->
+<!-- You can take a screenshot on MacOS with `command (⌘) + shift + 4` -->
 <!-- A wonderful tool for creating screen-capture gifs: https://www.cockos.com/licecap/ -->
